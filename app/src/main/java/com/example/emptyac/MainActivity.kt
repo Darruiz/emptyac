@@ -19,7 +19,7 @@ class  MainActivity : AppCompatActivity() {
 
                 val nvm = binding.nameput.text.toString()
 
-                binding.tview.text = "Olá, " + nvm
+                binding.tview.text = "Olá, ${nvm}"
 
             }
         }
